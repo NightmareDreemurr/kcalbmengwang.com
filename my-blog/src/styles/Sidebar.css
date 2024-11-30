@@ -1,0 +1,37 @@
+﻿/* src/styles/Sidebar.css */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+.sidebar-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-list li {
+    margin: 10px 0;
+}
+
+.sidebar-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.sidebar-link:hover {
+    color: #f1a745; /* 可自定义 hover 样式 */
+}

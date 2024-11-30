@@ -1,0 +1,32 @@
+﻿/* src/styles/MarkdownEditor.css */
+.markdown-editor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.editor-container {
+    margin-bottom: 20px;
+}
+
+.preview-container {
+    margin-bottom: 20px;
+}
+
+.save-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,22 @@
+﻿/* src/styles/App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 20px; /* 可以调整顶部的间距 */
+}
+
+.sidebar {
+    width: 250px; /* 设置侧边栏宽度 */
+    margin-right: 20px; /* 侧边栏与内容之间的间距 */
+}
+
+.content {
+    flex-grow: 1; /* 内容区域占满剩余的宽度 */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
