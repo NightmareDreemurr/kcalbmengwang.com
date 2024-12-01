@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <!-- Meta标签，设置页面字符编码、视口和兼容性等 -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="个人博客" />
-  <meta name="keywords" content="博客, 开发, 编程, 个人博客" />
-  <meta name="author" content="NightmareDreemurr" />
-  <title>我的博客</title>
-  <!-- SEO: Open Graph Meta Tags for social media sharing -->
-  <meta property="og:title" content="我的博客" />
-  <meta property="og:description" content="欢迎访问我的个人博客，分享开发经验和学习笔记。" />
-  <meta property="og:image" content="path/to/your-image.jpg" />
-  <meta property="og:url" content="https://nightmaredreemurr.github.io/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="我的博客" />
-  <meta name="twitter:description" content="欢迎访问我的个人博客，分享开发经验和学习笔记。" />
-  <meta name="twitter:image" content="path/to/your-image.jpg" />
-  <!-- Link to favicon -->
-  <link rel="icon" href="/favicon.ico" />
-  <!-- Link to stylesheets (if any) -->
-  <link rel="stylesheet" href="/static/css/main.css" />
-  <!-- If using a font from Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- 页面标题 -->
+  <title>个人博客 - 首页</title>
+
+  <!-- SEO优化：Meta标签 -->
+  <meta name="description" content="欢迎来到我的个人博客，分享编程、技术、生活的点滴。" />
+  <meta name="keywords" content="博客, 编程, 技术, React, Node.js" />
+
+  <!-- 网页图标 -->
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <!-- Google字体 -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- 自定义CSS样式 -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/styles/main.css" />
+
+  <!-- 防止点击延迟，适用于移动端 -->
+  <meta name="theme-color" content="#ffffff" />
 </head>
 <body>
+<!-- React渲染容器 -->
 <div id="root"></div>
-<!-- Webpack bundles or React will render here -->
-<script src="/static/js/main.js"></script>
+
+<!-- 引入应用的JS -->
+<script src="%PUBLIC_URL%/index.js"></script>
 </body>
 </html>
